@@ -16,7 +16,7 @@ def shop(hero) -> bool:
         # TODO вывести на экран названия всех предметов с порядковым номером
         number = 1
         while number < len(hero[5]):
-            print(len(hero[number]))
+            print(hero[number])
             number += 1
             pass
     elif option == '0':
